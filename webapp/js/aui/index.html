@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+<title>九点_引流页</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link type="text/css" href="skins/opera/chrome.css" rel="stylesheet" /> 
+<script type="text/javascript" src="jquery-1.7.2.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="artDialog.source.js?skin=chrome"></script>
+<script type="text/javascript" src="plugins/iframeTools.source.js"></script>
+
+</head> 
+<body>
+<div id="container">
+	<a href="javascript:void(0)" onClick="add();">点击</a>
+</div>
+<script type="text/javascript">
+function add(id) {
+		global_art = art.dialog.open("免租宝_地址列表.html",{
+			id : 'addCard',
+			title : '',
+			opacity : 0.1,
+			width : 760,
+			height : 550,
+			lock : true,
+			close : function() {
+				window.location.reload();
+			}
+		}, false);
+		$(window.parent.document).find(".cgcz_box_auto").css("width",760+"px");
+		$(window.parent.document).find(".ltc_span").each(function(){
+			$(this).css("width",710+"px");
+			})
+	}
+
+
+		
+	</script>
+</body>
+</html>

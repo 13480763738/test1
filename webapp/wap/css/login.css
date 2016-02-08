@@ -1,0 +1,262 @@
+/*ע���½�����û�css*/
+.register-body{
+	background:#f0f0f0;
+	padding-top:20px;
+}
+.register-body ul li{
+	position: relative;
+	background:#fff;
+	height:100px;
+	line-height:100px;
+	padding:0 4% 0 10%;
+	border-top:1px solid #c4c4c4;
+	font-size:1.6rem;
+}
+.register-body ul li label{
+	color:#000;
+	width:25%;
+	display:inline-block;
+	float:left; 
+	font-size:1.6em;
+}
+.register-body ul li input{
+    border: 0;
+    color: #c4c4c4;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5%;
+    font-size: 1.2em;
+}
+.register-body ul li span{
+	width:50%;
+	letter-spacing:2px;	
+	position: absolute;
+    color: red;
+    font-size: 16px;
+    display: block;
+    line-height: 20px;
+    width: 180px;
+    top: 43%;
+    right: 0;
+}
+.register-body ul li.yanzhenma input{
+	width:28%;
+	
+}
+.register-body ul li.yanzhenma p{
+	width:20%;
+	display:inline-block;
+	height:50px;
+}
+.register-body ul li.yanzhen input{
+	width:28%;
+	margin-left: -50px;
+	display:inline-block;
+	height:40px;
+	background:#5687da;
+	border-radius:5px;
+	line-height:40px;
+	text-align:center;
+	color:#Fff;
+	margin-left:15%;
+	cursor:pointer;
+}
+
+.register-body ul li.yanzhen .yz-time{
+	height:37px;
+	background:#646464;
+	width:21%;
+	text-align:center;
+	line-height:37px;
+	border:0;
+	color:#fff;
+	border-radius:5px;
+	-webit-border-radius:5px;
+	-o-border-radius:5px;
+	-o-moz-radius:5px;
+}
+.register-body ul li.yaoqing{
+	border-bottom:1px solid #c4c4c4;
+}
+.register-body ul li.yaoqing label{
+	margin-right:10%;
+}
+.register-body ul li.yaoqing input{
+	width:20px;
+	margin-left:2%;
+}
+.register-body ul li.yaoqing i{
+	padding-left:5px;
+} 
+.register-body ul li.hyyz{
+	border-top:none;
+	text-align:center;
+	border-bottom:1px solid #c4c4c4;
+}
+.register-body ul li.hyyz input{
+	width:30%;
+	padding:0;
+}
+.register-body ul li.tk{
+	text-align:center;
+	border:0;
+	height:70px;
+	  font-size: 1.4em;
+}
+.register-body ul li.tk input{
+	width:8%;
+	height:20px;
+	padding:0;
+	line-height:30px;
+}
+.register-body ul li.tk a{
+	color:#be0a09;
+	line-height:30px;
+}
+.register-body ul li.tj{
+	border:0;
+	padding:0;
+	text-align:center;
+}
+.register-body ul li.tj input{
+	padding:0;
+	width:80%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:#1d4d9f;
+	color:#fff;
+	border-radius:5px;
+	-webit-border-radius:5px;
+	-o-border-radius:5px;
+	-o-moz-radius:5px;
+	font-size:1.8em;	
+	cursor:pointer;
+}
+
+/*ע��ײ�*/
+.register-footer{
+	width:100%;
+	background:#fff;
+}
+.register-footer ul{
+	padding:20px 10%;
+	width:80%;
+}
+.register-footer ul li{
+	padding-bottom:40px;
+}
+.register-footer ul li dt{
+	width:14%;
+	float:left;
+	height:auto;
+	padding-right:10%;
+}
+.register-footer ul li dd{
+	padding-top:10px;
+	width:76%;
+	float:left;
+	height:auto;
+	color:#000;
+	letter-spacing:4px;
+}
+.register-footer ul li dd h3{
+	font-size:1.8em;
+	padding-bottom:15px;
+}
+.register-footer ul li dd p{
+	font-size:1.6em;
+	color:#595959;
+}
+
+/*��½*/
+.login-body{
+	width:100%;
+	background:#f0f0f0;
+	padding:30px 0 50px;
+}
+.login-body ul{
+	width:60%;
+	margin:0 20%;
+	border:1px solid #ccc;
+	border-radius:1px;
+	-webit-border-radius:5px;
+	-o-border-radius:5px;
+	-o-moz-radius:5px;
+	text-align:center;
+}
+.login-body ul li{
+	background:#fff;
+	width:80%;
+	height:30px;
+	border-bottom:1px solid #ccc;
+	line-height:30px;
+	padding:15px 10%;
+	position:relative;
+}
+.login-body ul li label{
+	font-size:1.6rem;
+	float:left;
+}
+.login-body ul li input{
+	border:0;
+	font-size:1.6rem;
+	padding-left:5%;
+	float:left;
+	height:30px;
+}
+.login-body ul span{
+	width:80%;
+	margin:10px auto;
+	height:40px;
+	background:#f7e8ea;
+	color:#be0a09;
+	border:1px solid #ccc;
+	text-align:center;
+	line-height:40px;
+	font-size:1.6rem;
+	border-radius:3px;
+	-webit-border-radius:3px;
+	-o-border-radius:3px;
+	-o-moz-radius:3px;
+	display:none;
+}
+.login-body ul li.login-yz{
+	border-bottom:0;
+}
+.login-body ul li.login-yz input{
+	width:30%;
+	margin-right:2%;
+}
+.login-body ul li.login-yz i{
+	border:1px solid #ccc;
+	display:inline-block;
+	width:20%;
+	float:left;
+}
+.login-body .login-submit{
+	width:60%;
+	margin:20px 20% 0;
+}
+.login-body .login-submit input{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:#1d4d9f;
+	color:#fff;
+	border-radius:5px;
+	-webit-border-radius:5px;
+	-o-border-radius:5px;
+	-o-moz-radius:5px;
+	font-size:1.8rem;
+	width:100%;
+	border:0;
+}
+.login-body .login-submit .login-btm{
+	
+	padding:10px 2%;
+	width:96%;
+}
+.login-body .login-submit a{
+	color:#be0a09;
+}

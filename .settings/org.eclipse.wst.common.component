@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="front">
+        <wb-resource deploy-path="/" source-path="/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common/common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/commons-lang.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpmime-4.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/httpmime-4.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/commons-collections.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-cache-4.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/httpclient-cache-4.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-1.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/gson-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ezmorph-1.0.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/ezmorph-1.0.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/commons-codec-1.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ucpaas-send.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ucpaas-send/ucpaas-send">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-lib-2.4-jdk15.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/json-lib-2.4-jdk15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/commons-beanutils.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/httpcore-4.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ucpaas-send/lib/httpclient-4.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/front/build/classes"/>
+        <property name="context-root" value="/"/>
+    </wb-module>
+</project-modules>

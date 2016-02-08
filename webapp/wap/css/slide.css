@@ -1,0 +1,21 @@
+.box-163css{ position:relative; margin:1rem; height:200px; overflow:hidden;}
+.box-163css .next{ float:right;}
+.piclist{position:relative; -webkit-transition: left 600ms ease-out; width:2232px; left:0;}
+.piclist li{display:table-cell;height: auto; position:relative; float: left; vertical-align: top;}
+.swipe{margin-bottom:20px;overflow: hidden; visibility: visible; list-style: none; position: relative; width:100%; height:auto; }
+#slider4 ul{
+	-webkit-transition:left 800ms ease-in 0;
+	-moz-transition:left 800ms ease-in 0;
+	-o-transition:left 800ms ease-in 0;
+	-ms-transition:left 800ms ease-in 0;
+	transition:left 800ms ease-in 0;
+}
+.arrdiv{ position:absolute; top:90px;z-index:12;}
+b.arrdiv{ display:block; background:url(../images/arrow.png) no-repeat;width:17px; height:28px; cursor:pointer; text-indent:-999em;}
+.arrdiv.pre{ float:left; background-position:-7px -1px; left:1rem;}
+.arrdiv.next{ float:right; background-position:-37px -1px;right:1em;}
+.page a{margin:0; width:1rem; height:1rem; display:inline-block;background:url(../images/bannerBtn.png) left top no-repeat;}
+.page a.active{ background:url(../images/banner_hover.png) left top no-repeat; }
+/*新增*/
+.piclist li img{ width:100%; height:auto; float:left;}
+.page{ position:absolute; bottom:1rem; width:100%; text-align:center;}
